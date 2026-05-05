@@ -6,7 +6,6 @@ const payments = new Map();
 const idempotencyKeys = new Map();
 const locks = new Map();
 
-
 function createPayment(data) {
   const payment = {
     id: uuidv4(),
